@@ -4,7 +4,7 @@
 
 有別於傳統 RAG（每次查詢時從原始文件檢索），LLM 會**增量編譯並維護一個結構化的 wiki**——摘要、概念頁、實體頁、交叉引用——隨著你加入來源持續更新。知識是累積的，不是每次重新推導。
 
-靈感來自 [Andrej Karpathy 的做法](https://x.com/karpathy/status/2039805659525644595) 和 [Tobi Lütke 的 LLM Wiki 模式](https://github.com/tobi/llm-wiki)。
+靈感來自 [Andrej Karpathy 的做法](https://x.com/karpathy/status/2039805659525644595) 和他的 [llm-wiki 模式文件](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)。
 
 ## 結構
 

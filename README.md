@@ -23,7 +23,7 @@ your-vault/
 │   └── analyses/          ← 歸檔的查詢結果與分析
 └── .claude/
     └── commands/
-        ├── init_wiki.md   ← /init_wiki — 初始化 vault 結構
+        ├── init-wiki.md   ← /init-wiki — 初始化 vault 結構
         ├── ingest.md      ← /ingest — 將來源處理進 wiki
         └── lint.md        ← /lint — Wiki 健康檢查
 ```
@@ -45,7 +45,7 @@ Copy-Item -Recurse llm-wiki-template\.claude path\to\your-vault\
 
 2. 在 vault 目錄開啟 Claude Code session。
 
-3. 執行 `/init_wiki` 建立目錄結構、索引和日誌。
+3. 執行 `/init-wiki` 建立目錄結構、索引和日誌。
 
 4. 將來源檔案放入 `raw/sources/`。支援的格式包括 Markdown、PDF、Word、純文字、圖片等。網頁文章可透過 [Obsidian Web Clipper](https://obsidian.md/clipper) 擷取為 Markdown。
 

@@ -32,8 +32,15 @@ your-vault/
 
 1. 將模板複製到新的 vault：
 
+**macOS / Linux：**
 ```bash
 cp -r llm-wiki-template/* llm-wiki-template/.claude /path/to/your-vault/
+```
+
+**Windows（PowerShell）：**
+```powershell
+Copy-Item -Recurse llm-wiki-template\* path\to\your-vault\
+Copy-Item -Recurse llm-wiki-template\.claude path\to\your-vault\
 ```
 
 2. 在 vault 目錄開啟 Claude Code session。

@@ -47,7 +47,7 @@ Copy-Item -Recurse llm-wiki-template\.claude path\to\your-vault\
 
 3. 執行 `/init_wiki` 建立目錄結構、索引和日誌。
 
-4. 將來源檔案（markdown，透過 [Obsidian Web Clipper](https://obsidian.md/clipper) 或手動方式）放入 `raw/sources/`。
+4. 將來源檔案放入 `raw/sources/`。支援的格式包括 Markdown、PDF、Word、純文字、圖片等。網頁文章可透過 [Obsidian Web Clipper](https://obsidian.md/clipper) 擷取為 Markdown。
 
 5. 執行 `/ingest` 將來源處理進 wiki。
 
